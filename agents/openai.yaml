@@ -1,0 +1,4 @@
+interface:
+  display_name: "Source Insights"
+  short_description: "Extract only rare, source-anchored insights"
+  default_prompt: "Use $insight to find only genuinely non-obvious insights in this material and anchor each one precisely."
