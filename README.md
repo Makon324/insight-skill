@@ -1,6 +1,6 @@
 # Insight
 
-`insight` is a Codex skill for extracting a small number of genuinely non-obvious, consequential insights from books, articles, podcasts, videos, and other source material.
+`insight` is an agent skill for extracting a small number of genuinely non-obvious, consequential insights from books, articles, podcasts, videos, and other source material.
 
 It prioritizes grounded analysis, precise source anchors, explicit boundaries, and intellectual honesty. If the source does not contain anything that clears the bar, returning no insights is the correct result.
 
@@ -31,6 +31,16 @@ You may use subagents, but each agent must focus on exactly one chapter at a tim
 Return a list of chapters, with a nested list of qualifying insights for each chapter.
 
 <Book attached>
+```
+
+### Example 3: Analyze a YouTube channel
+
+```text
+Watch all videos currently available on this channel: https://www.youtube.com/@DwarkeshPatel
+
+Actually watch them. Use the $insight skill and find the best insights across the videos. The channel is particularly insight-dense, so find a lot of insights.
+
+Find the most important videos to watch if you want to advance your understanding of AGI timelines. Include precise timestamps for the insights.
 ```
 
 ## Model choice matters
